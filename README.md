@@ -16,10 +16,10 @@ Northstar is an interactive travel planning and flight reservation dashboard bui
 
 ### Technology Stack
 - **Framework**: C++14 (native WinSock2 / POSIX embedded HTTP server)
-- **Build Tool / Dev Server**: CMake (>= 3.16) with Ninja / GCC (`start.sh`, served on `0.0.0.0:8080`)
+- **Build Tool / Dev Server**: CMake (>= 3.16) with Ninja / GCC
 - **Styling**: Vanilla CSS (custom design system, responsive grid layout, flight cards, modal dialogs)
-- **Testing**: C++ test runner (`tests/test_runner.cpp`)
-- **Data**: Bundled deterministic in-memory fixtures (`src/service.cpp`)
+- **Testing**: C++ test runner 
+- **Data**: Bundled deterministic in-memory fixtures
 
 ---
 

@@ -5,7 +5,15 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(travel_service src/service.cpp)
+add_library(travel_service
+    src/catalog.cpp
+    src/search.cpp
+    src/routing.cpp
+    src/schedule.cpp
+    src/fare.cpp
+    src/pricing.cpp
+    src/inventory.cpp
+)
 target_include_directories(travel_service PUBLIC include)
 
 add_executable(server src/main.cpp)
